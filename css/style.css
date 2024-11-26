@@ -48,9 +48,9 @@ header{
 }
 
 .logo-container{
+    
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .logo:hover, .logo-img:hover{
