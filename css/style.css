@@ -66,6 +66,7 @@ nav a.active{
 @media (max-width: 995px){
     nav{
         position: absolute;
+        display: none;
         top: 100%;
         right: 0;
         width: 40%;
@@ -122,6 +123,10 @@ span{
     font-size: 4rem;
     margin-bottom: 1rem;
     font-weight: 700;
+}
+
+.home-content p{
+    font-size: 1.6rem;
 }
 
 .home-img{
@@ -233,5 +238,31 @@ span{
     }
     81%,100%{
         content: "Sexy Man 💖";
+    }
+}
+
+@media (max-width: 1000px){
+    .home{
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 995px){
+    .home{
+        flex-direction: column;
+        margin: 5rem 4rem;
+    }
+
+    .home .home-content h3{
+        font-size: 2.5rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-img img{
+        width: 70vw;
+        margin-top: 4rem;
     }
 }
