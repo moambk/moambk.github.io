@@ -149,11 +149,12 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2 solid #771E93;
+    border: 0.2rem solid #771E93;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
+    color: white;
 }
 
 .social-icons a:hover{
