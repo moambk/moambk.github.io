@@ -220,18 +220,18 @@ span{
 
 @keyframes words{
     0%,20%{
-        content: "Web Developer";
+        content: "Passionate 🤩";
     }
     21%,40%{
-        content: "Application Developer";
+        content: "Application Developer </>";
     }
     41%,60%{
-        content: "b";
+        content: "Winner 🏆";
     }
     61%,80%{
-        content: "c";
+        content: "Web Developer 🖥️";
     }
     81%,100%{
-        content: "For You";
+        content: "Sexy Man 💖";
     }
 }
