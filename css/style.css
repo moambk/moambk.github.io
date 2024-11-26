@@ -27,7 +27,9 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: transparent;
     filter: drop-shadow(10px);
     display: flex;
@@ -36,7 +38,8 @@ header{
     z-index: 100;
 }
 
-.logo{
+
+.logo, .logo-img{
     font-size: 3rem;
     color:#771E93;
     font-weight: 800;
@@ -44,7 +47,12 @@ header{
     transition: 0.5s ease;
 }
 
-.logo:hover{
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo:hover, .logo-img:hover{
     transform: scale(1.1);
 }
 
