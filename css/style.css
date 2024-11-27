@@ -53,7 +53,7 @@ header{
     align-items: center;
 }
 
-.logo:hover, .logo-img:hover{
+.logo-img:hover{
     transform: scale(1.1);
 }
 
