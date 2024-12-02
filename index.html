@@ -20,11 +20,10 @@
 
 
         <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#"> About</a>
-            <a href="#"> Projects</a>
-            <a href="#"> Contact</a>
-
+            <a href="./#home" class="active"> Home</a>
+            <a href="./#about"> About</a>
+            <a href="./#projects"> Projects</a>
+            <a href="./#contact"> Contact</a>
         </nav>
     </header>
 
@@ -85,13 +84,32 @@
     </section>
 
     <section id="contact" class="contact">
-        <h2 class="section-title">Contact Me</h2>
-        <div class="contact-info">
-            <p><i class="fas fa-envelope"></i>mohamed.bekhouche@etu.univ-smb.fr</p>
-            <p><i class="fas fa-phone"></i>+33 7 68 02 99 08</p>
-            <p><i class="fas fa-map-marker-alt"></i>Annecy, 74000, France</p>
+        <form action="https://getform.io/f/awnnrydb" method="POST">
+            <input type="text" name="name">
+            <input type="email" name="email">
+            <input type="text" name="message">
+            <!-- add hidden Honeypot input to prevent spams -->
+            <input type="hidden" name="_gotcha" style="display:none !important">
+            <!-- checkbox handle -->
+            <input type="checkbox" name="subscribe" value="yes" checked>
+            <input type="hidden" name="subscribe" value="no">
+            <!-- radio button handle -->
+            <input type="radio" name="gender" value="male" checked>
+            <input type="radio" name="gender" value="female">
+            <input type="radio" name="gender" value="other">
+            <!-- select field handle -->
+            <select name="work-experience">
+                <option value="one-year">0-1 years</option>
+                <option value="one-five-years">1-5 years</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
         </div>
     </section>
+
+    <footer>
+        <p>&copy; 2023 Mohamed Bekhouche. All rights reserved.</p>
+    </footer>
 
     <script src="./js/script.js"></script>
 

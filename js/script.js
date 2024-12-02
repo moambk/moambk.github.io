@@ -9,19 +9,24 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Active nav link update on scroll
-window.addEventListener('scroll', () => {
-    let current = '';
-    document.querySelectorAll('section').forEach(section => {
-        const sectionTop = section.offsetTop;
-        if (pageYOffset >= sectionTop - 60) {
-            current = section.getAttribute('id');
-        }
-    });
 
-    document.querySelectorAll('nav a').forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href').substring(1) === current) {
-            link.classList.add('active');
+function updateActiveSection() {
+    const scrollY = window.pageYOffset;
+
+    this.sections.forEach(section => {
+        const sectionHeight = section.offsetHeight;
+        const sectionTop = section.offsetTop - 100;
+        const sectionId = section.getAttribute('id');
+
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            this.navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+
+            const activeLink = document.querySelector(`.header__link[href="./#${sectionId}"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
         }
     });
-});
+}           
