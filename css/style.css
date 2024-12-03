@@ -107,6 +107,7 @@ nav a.active{
 
 section{
     min-height: 100vh;
+
     padding: 5rem 9% 5rem;
 }
 
@@ -362,4 +363,41 @@ span{
 
 footer {
     background-color: #161616;
+}
+
+.contact__form-field {
+    margin-bottom: 2.4rem;
+}
+
+.contact__form-label {
+    color: #771E93;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+}
+
+.contact__form-input {
+    color: #333;
+    padding: 1.6rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1.28rem;
+    letter-spacing: 0px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.contact__form-container {
+    box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 3.2rem;
+    margin-top: 4.8rem;
+    max-width: 64rem;
+    text-align: right;
+    width: 95%;
+    border-radius: 15px;
+    margin: 4rem auto 0 auto;
 }

@@ -9,9 +9,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Active nav link update on scroll
-
 function updateActiveSection() {
     const scrollY = window.pageYOffset;
+
+    this.sections = document.querySelectorAll('section');
+    this.navLinks = document.querySelectorAll('.header__link');
 
     this.sections.forEach(section => {
         const sectionHeight = section.offsetHeight;
@@ -29,4 +31,4 @@ function updateActiveSection() {
             }
         }
     });
-}           
+}

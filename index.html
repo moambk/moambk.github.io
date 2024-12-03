@@ -20,10 +20,11 @@
 
 
         <nav>
-            <a href="./#home" class="active"> Home</a>
-            <a href="./#about"> About</a>
-            <a href="./#projects"> Projects</a>
-            <a href="./#contact"> Contact</a>
+            <a href="./#home" class="header__link active">Home</a>
+            <a href="./#about" class="header__link">About</a>
+            <a href="./#skills" class="header__link">Skills</a>
+            <a href="./#projects" class="header__link">Projects</a>
+            <a href="./#contact" class="header__link">Contact</a>
         </nav>
     </header>
 
@@ -38,10 +39,12 @@
                 possimus soluta corrupti et laborum dolor tempore vero a rerum maiores laboriosam at aut voluptates
                 magnam.</p>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/mohamed-amir-bekhouche-73a297331/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-amir-bekhouche-73a297331/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/moambk" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://x.com/doga_d_klodus" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/0.ixi_ixi.0/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/0.ixi_ixi.0/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
             </div>
             <a href="#" class="btn">Hire me</a>
         </div>
@@ -53,7 +56,10 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <p style="font-size: 1.6rem; text-align: center; max-width: 800px; margin: 0 auto;">
-                I am a dedicated IT student with a passion for software development and technology. With fluency in French, Arabic, and English, I bring a multicultural perspective to my work. I'm known for being curious, determined, and task-oriented, always striving to find innovative solutions to complex problems.
+                I am a dedicated IT student with a passion for software development and technology. With fluency in
+                French, Arabic, and English, I bring a multicultural perspective to my work. I'm known for being
+                curious, determined, and task-oriented, always striving to find innovative solutions to complex
+                problems.
             </p>
         </div>
     </section>
@@ -83,32 +89,60 @@
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <form action="https://getform.io/f/awnnrydb" method="POST">
-            <input type="text" name="name">
-            <input type="email" name="email">
-            <input type="text" name="message">
-            <!-- add hidden Honeypot input to prevent spams -->
-            <input type="hidden" name="_gotcha" style="display:none !important">
-            <!-- checkbox handle -->
-            <input type="checkbox" name="subscribe" value="yes" checked>
-            <input type="hidden" name="subscribe" value="no">
-            <!-- radio button handle -->
-            <input type="radio" name="gender" value="male" checked>
-            <input type="radio" name="gender" value="female">
-            <input type="radio" name="gender" value="other">
-            <!-- select field handle -->
-            <select name="work-experience">
-                <option value="one-year">0-1 years</option>
-                <option value="one-five-years">1-5 years</option>
-            </select>
-            <button type="submit">Send</button>
-        </form>
+
+    <section id="projects" class="section project">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="assets/image/png/project1.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-box">
+                <img src="assets/image/png/project2.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-box">
+                <img src="assets/image/png/project3.png" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
         </div>
     </section>
 
+
+    <section id="contact" class="contact">
+            <div class="contact__form-container">
+                <form action="https://formspree.io/f/xvgodeby" method="POST" class="contact__form">
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="name">Who are you ?</label>
+                        <input required placeholder="Amir Bekhouche" type="text" class="contact__form-input"
+                            name="name" id="name" />
+                    </div>
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="email">E-mail</label>
+                        <input required placeholder="input@example.com" type="email" class="contact__form-input"
+                            name="email" id="email" />
+                    </div>
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="message">Text me !</label>
+                        <textarea required cols="30" rows="8" class="contact__form-input"
+                            placeholder="Let's say something" name="message"
+                            id="message"></textarea>
+                    </div>
+                    <button type="submit" class="contact__bt">
+                        <span>Send It</span>
+                    </button>
+                </form>
+            </div>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Mohamed Bekhouche. All rights reserved.</p>
+        <p>&copy; 2024 Mohamed Bekhouche. All rights reserved.</p>
     </footer>
 
     <script src="./js/script.js"></script>
