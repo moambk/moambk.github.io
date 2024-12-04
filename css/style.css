@@ -362,7 +362,11 @@ span{
 
 
 footer {
-    background-color: #161616;
+    background-color: #1f2937; 
+    color: white; padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
 }
 
 .contact__form-field {
@@ -400,4 +404,77 @@ footer {
     width: 95%;
     border-radius: 15px;
     margin: 4rem auto 0 auto;
+}
+
+.projects-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.project-image{
+    width: 55rem;
+    height: 30rem;
+}
+
+.project-box{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.contact__bt{
+        width: 24%;
+        padding: 1.6rem 3.2rem;
+        font-size: 1.28rem;
+        border-radius: 4rem;
+
+}
+
+.contact__bt:hover{
+    box-shadow: 0 0 25px rgba(119, 30, 147, 0.3);
+    transform: scale3d(1.03);
+    color: black;
+    box-shadow:  0 0 25px #771E93;
+}
+.footer_box{
+flex: 1; 
+margin: 0.5rem; 
+min-width: 200px;
+}
+
+.footer_title{
+    font-size: 3rem;
+    color: #60a5fa;
+    margin-bottom: 1rem;
+
+}
+
+.footer_social{
+    display: flex;
+gap: 1rem;
+}
+
+
+.footer__Slink{
+color: #9ca3af; 
+text-decoration: none;
+margin-right: 1rem;
+size: 10rem;
+}
+
+
+.footer_text{
+color: #9ca3af;
+font-size: 1.5rem;
+}
+
+.footer_right{
+    width: 100%; 
+    text-align: center; 
+    padding-top: 1rem; 
+    margin-top: 1rem; 
+    border-top: 1px solid #374151; 
+    color: #9ca3af;
+    
 }
