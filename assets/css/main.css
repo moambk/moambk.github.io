@@ -31,7 +31,9 @@
   --background-color: #1a1a1a;
   --surface-color: #343434;
 }
-
+.very-dark-background{
+  background-color: #000000;
+}
 .dark-background {
   --background-color: rgba(15, 15, 15, 0.975);
   --default-color: #ffffff;
