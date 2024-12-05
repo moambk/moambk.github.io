@@ -42,6 +42,10 @@
   --contrast-color: #000000;
 }
 
+.img-fluid{
+  transform: scale(0.8);
+}
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
