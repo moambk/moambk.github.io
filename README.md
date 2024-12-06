@@ -1,6 +1,6 @@
 # Portfolio - Amir BEKHOUCHE
 
-Bienvenue sur mon portfolio GitHub ! Ce site présente mes projets, compétences et expériences en développement. Vous pouvez découvrir mes réalisations et voir le code source de chacun de mes projets.
+Bienvenue sur mon portfolio ! Ce Portfolio regroupe mes informations presonnelles et éducatives.
 
 ## Lien vers le portfolio
 
