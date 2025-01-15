@@ -1331,3 +1331,23 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
+
+
+
+
+
+.apo {
+  display: flex;
+  justify-content: left;
+}
+
+
+.apo-adroite {
+margin-left: 50rem; 
+color: #000000;
+}
+
+#mariage{
+  font-size: xx-small;
+}
