@@ -11,9 +11,10 @@ const serviceData = {
     text_2: 'Ce project demandais de recrée le site web Uber, UberEats, UberVélo depuis Laravel controlé par des sprints nous devions donc gerer notre temps et nos missions individuels et misions partagés. Cela concerne le payment du panier de UberEats, la réservation de course Uber ect.. . Une durée de 4 mois nous a été permise, donc 5 semaines de développement. Le reste du temps permettait de conceptualisé le projet à l\'aide de Diagramme de Classe, Diagramme de UseCase etc., une gestion de base de données, grâce à un MDC, MDL et un temps pour gérer la partie des protections des données par rapport au Cookies et autres.',
     img_lien : 'https://github.com/moambk/Uber' ,
     img_project : '../../assets/img/UberProject.PNG' ,
-    img_project_2 : '../../assets/img/DortanProject.PNG' ,
+    img_project_2 : '../../assets/img/UberEatsProject.PNG'  ,
     img_github : '../../assets/img/Uber-github.PNG' ,
   },
+
   'last-night': {
     title: 'Last Night',
     description: 'Une mission palpitante à travers un temps apocalyptique, les zombies seront votre obstacle .',
