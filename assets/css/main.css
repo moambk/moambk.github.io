@@ -1365,3 +1365,9 @@ color: #000000;
   height: 100%;    
   object-fit: cover; 
 }
+
+
+.img-details{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
