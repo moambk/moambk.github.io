@@ -25,9 +25,10 @@ const serviceData = {
     check_1: 'Travail Universitaire.',
     check_2: 'Travail de groupe (5)',
     check_3: 'Laravel, php, postgres, SQL, javaScript, BootStrap.',
-    text_1: '',
-    text_2: '',
-    img_github : 'https://github.com/moambk/Uber' ,
+    text_1: 'Uber est un projet Universitaire constitué de 5 membres, c\'est donc un travail d\'équipe qui m\'as permis d\'apprendre a gérer une équipe et développer mon travail en équipe et ma communication.',
+    text_2: 'Ce project demandais de recrée le site web Uber, UberEats, UberVélo depuis Laravel controlé par des sprints nous devions donc gerer notre temps et nos missions individuels et misions partagés. Cela concerne le payment du panier de UberEats, la réservation de course Uber ect.. . Une durée de 4 mois nous a été permise, donc 5 semaines de développement. Le reste du temps permettait de conceptualisé le projet à l\'aide de Diagramme de Classe, Diagramme de UseCase etc., une gestion de base de données, grâce à un MDC, MDL et un temps pour gérer la partie des protections des données par rapport au Cookies et autres.',
+    img_lien : 'https://github.com/moambk/Uber' ,
+    img_github : '../../assets/img/Uber-github.PNG' ,
   },
   'last-night': {
     title: 'Last Night',
@@ -35,9 +36,10 @@ const serviceData = {
     check_1: 'Travail Universitaire.',
     check_2: 'Travail de groupe (3)', 
     check_3: 'WPF, XAML, C#, Visual Studio',
-    text_1: '',
-    text_2: '',
+    text_1: 'Last Night est un projet de jeu universitaire WPF utilisant donc XAML, C#. Nous devions donc à 3 conceptualisée le code réel et gérer mouvement, collison, micro-IA, pathfinding ect.. .',
+    text_2: 'Ce projet demandais de crée un jeu sans réel conditions. Il fallait seulement donnée cour à notre liberté dans un temps restraint de 2 semaine. ',
     img_lien : 'https://github.com/moambk/Last-Night' ,
+    img_github : '../../assets/img/LastNight-github.PNG' ,
   },
   'labyrinth': {
     title: 'Labyrinth Of Horror',
@@ -45,9 +47,10 @@ const serviceData = {
     check_1: 'Travail Universitaire.',
     check_2: 'Travail de groupe (3)',
     check_3: 'Unity, C#, assets library',
-    text_1: '',
-    text_2: '',
+    text_1: 'Labyrinth Of Horror est un projet universitaire codé grâce au moteur de jeu Unity et des scripts C#, avec une librairie d\'assets pour avoir des personnages beacoup plus réaliste.',
+    text_2: 'Ce projet demandais de crée un jeu avec un thème choisi à l\'avance, un thème horreur avait été choisi pour notre groupe. J\'ai été chargé du pathfinding, la gestion de l\'animation du monstre du \'labyrinth\', la gestion de la map a été généré grâce à un scirpt et la gesttion de lumière pour effrayer ont été à ma charge.',
     img_lien : 'https://github.com/moambk/Labyrinth-Of-Horror' ,
+    img_github : '../../assets/img/LabyrinthOfHorror-github.PNG' ,
   },
   'dortan': {
     title: 'Dortan',
@@ -58,6 +61,7 @@ const serviceData = {
     text_1: '',
     text_2: '',
     img_lien : 'https://github.com/moambk/Dortan' ,
+    img_github : '../../assets/img/Dortan-github.PNG' ,
   }
 };
 
@@ -84,5 +88,6 @@ links.forEach(link => {
     document.getElementById('text_1').textContent = serviceData[serviceId].text_1;
     document.getElementById('text_2').textContent = serviceData[serviceId].text_2;
     document.getElementById('img_lien').setAttribute('href', serviceData[serviceId].img_lien);
+    document.getElementById('img_github').setAttribute('src', serviceData[serviceId].img_github);
   });
 });
