@@ -58,8 +58,8 @@ const serviceData = {
     check_1: 'Travail Universitaire.',
     check_2: 'Travail individuel',
     check_3: 'WPF, XAML, C#, postgres, SQL',
-    text_1: '',
-    text_2: '',
+    text_1: 'Dortan est un pojet universitaire qui nous represente en tant que mairie de Dortan, nous devons donc gérer les missions de la ville comme ramasser les déchets, l\objectif était de crée une application pour visualiser et gérer ses fonctionnalitées.',
+    text_2: 'Ce projet d\'appliaction WPF demandé de lié une base de donnée postgres SQL pour permttre de visualiser depuis un compte admin les différentes missions disponible pour permettre de les assigner à des employés ou alors de visualisé celle déjà en cours ou réservé. Codé avec des scipt C# j\'ai donc trvaillé seul pour un travail normalement assigné à 3 personnes, par manque de personnes j\'ai su m\'adapter pour ne pas être pénaliser pour une durée de 3 semaines ',
     img_lien : 'https://github.com/moambk/Dortan' ,
     img_github : '../../assets/img/Dortan-github.PNG' ,
   }
