@@ -15,7 +15,7 @@ Voici les principales technologies et outils que j'utilise :
 
 ## Projets
 
-Vous trouverez sur mon portfolio plusieurs projets, avec des détails et des démonstrations pour chaque.
+Vous trouverez sur mon portfolio plusieurs projets, avec des détails.
 
 ## Ce que j'apprends actuellement
 
