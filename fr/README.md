@@ -10,8 +10,8 @@ Bienvenue sur mon portfolio GitHub ! Ce site présente mes projets, compétences
 
 Voici les principales technologies et outils que j'utilise :
 
-- **Langages :** C#, HTML, CSS, JavaScript,PHP, etc.
-- **Outils :** Git, GitHub, VS Code, etc.
+- **Langages :** Java, C#, HTML, CSS, JavaScript,PHP, etc.
+- **Outils :** Gitlab, Git, GitHub, VS Code, etc.
 
 ## Projets
 
@@ -21,8 +21,8 @@ Vous trouverez sur mon portfolio plusieurs projets, avec des détails.
 
 Je travaille actuellement sur les technologies suivantes pour continuer d'améliorer mes compétences :
 
-- Laravel
-- WebSocket
+- Java, SpringBoot
+- Appel Api
 
 ## Contact
 
