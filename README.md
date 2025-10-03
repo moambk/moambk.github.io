@@ -28,23 +28,8 @@ Voici un exemple de stack possible :
 
 > 📌 (framework, dépendances, scripts, etc.)
 
-## 🚀 Instructions d’installation et de déploiement
-
-Voici un exemple générique :
+## 🚀 Instructions d’installation 
 
 ```bash
 # Cloner le dépôt
 git clone https://github.com/ton-utilisateur/ton-depot-portfolio.git
-cd ton-depot-portfolio
-
-# Installer les dépendances (si applicable)
-npm install
-
-# Lancer en mode développement
-npm run dev
-
-# Générer la version de production / builder le projet
-npm run build
-
-# Déployer (par exemple avec GH Pages)
-npm run deploy
