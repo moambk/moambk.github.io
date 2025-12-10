@@ -1371,3 +1371,36 @@ color: #000000;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+
+.accordion-item {
+  background-color: var(--surface-color);
+  border: 1px solid rgba(255,255,255,0.05);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  
+}
+
+.accordion-button {
+  background-color: var(--surface-color);
+  color: var(--heading-color);
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.accordion-body {
+  padding: 20px;
+  background-color: rgba(255,255,255,0.03);
+  border-radius: 0 0 8px 8px;
+  color: var(--default-color);
+
+}
+
+.accordion-box {
+  margin-bottom: 70px;
+
+}
