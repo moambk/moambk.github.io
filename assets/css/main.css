@@ -1404,3 +1404,12 @@ color: #000000;
   margin-bottom: 70px;
 
 }
+
+.preuve_items{
+  padding-left: 40px;
+  color: var(--default-color);
+}
+
+.objectif{
+  color: var(--default-color);
+}
