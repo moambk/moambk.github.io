@@ -1413,3 +1413,16 @@ color: #000000;
 .objectif{
   color: var(--default-color);
 }
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.niveau-buttons {
+  display: flex;
+  gap: 10px;
+}
+
