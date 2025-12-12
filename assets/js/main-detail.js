@@ -13,6 +13,7 @@ const serviceData = {
     img_project : '../../assets/img/UberProject.png' ,
     img_project_2 : '../../assets/img/UberEatProject.png'  ,
     img_github : '../../assets/img/Uber-github.png' ,
+    bouton_magique: 'https://github.com/moambk/Uber',
   },
 
   'last-night': {
@@ -27,6 +28,7 @@ const serviceData = {
     img_project : '../../assets/img/LastNightProject-1.png' ,
     img_project_2 : '../../assets/img/LastNightProject-2.png' ,
     img_github : '../../assets/img/LastNight-github.png' ,
+    bouton_magique: 'https://github.com/moambk/Last-Night',
   },
   'labyrinth': {
     title: 'Labyrinth Of Horror',
@@ -40,6 +42,7 @@ const serviceData = {
     img_project : '../../assets/img/labyrinthProject.png' ,
     img_project_2 : '../../assets/img/labyrinthProject_2.png' ,
     img_github : '../../assets/img/LabyrinthOfHorror-github.png' ,
+    bouton_magique: 'https://github.com/moambk/Labyrinth-Of-Horror',
   },
   'dortan': {
     title: 'Dortan',
@@ -53,6 +56,7 @@ const serviceData = {
     img_project : '../../assets/img/DortanProject.png' ,
     img_project_2 : '../../assets/img/DortanProject_2.png' ,
     img_github : '../../assets/img/Dortan-github.png' ,
+    bouton_magique : 'https://github.com/moambk/Dortan',
   }
 };
 
@@ -78,7 +82,7 @@ links.forEach(link => {
     document.getElementById('img_github').setAttribute('src', serviceData[serviceId].img_github);
     document.getElementById('img_project').setAttribute('src', serviceData[serviceId].img_project);
     document.getElementById('img_project_2').setAttribute('src', serviceData[serviceId].img_project_2);
-
+    document.getElementById('bouton_magique').setAttribute('href', serviceData[serviceId].bouton_magique);
     
   });
 });

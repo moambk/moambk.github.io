@@ -1426,3 +1426,186 @@ color: #000000;
   gap: 10px;
 }
 
+.competence-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.competence-header h1 {
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--heading-color);
+}
+
+.competence-header p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+/* CARDS GLOBALES (inspirées de .service-item mais plus flexibles) */
+.comp-card {
+  background-color: var(--surface-color);
+  border: 1px solid rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: 0.3s ease;
+}
+
+.comp-card:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-3px);
+}
+
+.comp-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.comp-card p,
+.comp-card li {
+  color: var(--default-color);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* LISTES AVEC ICONES */
+.comp-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.comp-list li {
+  padding-left: 28px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.comp-list li::before {
+  content: "✔";
+  color: var(--accent-color);
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+
+/* BLOCS "OBJECTIF", "APPRENTISSAGE", "RESSOURCES", etc. */
+.comp-section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: var(--accent-color);
+  letter-spacing: 1px;
+}
+
+.comp-subtext {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 20px;
+}
+
+
+/* BOUTONS DE NIVEAUX */
+.comp-level-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.comp-level-buttons a {
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  transition: 0.3s ease;
+}
+
+.comp-level-buttons a:hover,
+.comp-level-buttons a.active {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+
+/* PREUVES / RESSOURCES – FORMAT CARD */
+.proof-card {
+  background-color: rgba(255,255,255,0.03);
+  border-left: 4px solid var(--accent-color);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.proof-card h4 {
+  margin: 0 0 10px;
+  color: var(--heading-color);
+  font-size: 18px;
+}
+
+.proof-card p {
+  margin: 0;
+  color: var(--default-color);
+}
+
+
+/* BUTTONS POUR ALLER AUX COMPETENCES ET NIVEAUX */
+.navigation-bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-bottom a {
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.navigation-bottom a:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+
+/* IMAGES */
+.comp-img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .navigation-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .comp-level-buttons {
+    flex-direction: column;
+  }
+}
+
+.txt-but{
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.txt_but_container{
+  background-color: rgba(255,255,255,0.03);
+  border-left: 4px solid var(--accent-color);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
