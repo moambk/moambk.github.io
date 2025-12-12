@@ -1342,8 +1342,9 @@ section,
 
 
 .apo-adroite {
-margin-left: 50rem; 
-color: #000000;
+  width: auto;
+  position: relative;
+  height: auto;
 }
 
 #mariage{
@@ -1596,6 +1597,9 @@ color: #000000;
   }
 }
 
+
+
+
 .txt-but{
   color: var(--accent-color);
   font-weight: 600;
@@ -1609,3 +1613,101 @@ color: #000000;
   border-radius: 6px;
 }
 
+
+
+.hero .apo-adroite {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.hero .apo-adroite img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  object-position: right center;
+}
+
+/* Mobile fix */
+@media (max-width: 992px) {
+  .hero .apo-adroite {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero .apo-adroite img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+/* HERO — Layout */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-top: 80px;
+}
+
+/* Texte */
+.hero-text {
+  max-width: 50%;
+  z-index: 2;
+}
+
+/* Image à droite */
+.hero-img {
+  max-width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 50%;
+}
+
+.hero-img img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 0;
+
+}
+
+/* Mobile responsive */
+@media (max-width: 992px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* competence.css - petites améliorations compatibles main.css */
+.comp-card { max-width: 980px; margin: 40px auto; padding: 30px; background: var(--surface-color); border-radius:10px; }
+.comp-card h1 { font-size: 28px; margin-bottom: 8px; }
+.comp-section-title { font-size: 18px; margin-top: 24px; margin-bottom: 12px; color: var(--accent-color); }
+.comp-list li { margin-bottom: 8px; }
+.navigation-bottom { margin-top: 30px; display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+.table-eval { width:100%; border-collapse: collapse; margin-top:12px; }
+.table-eval th, .table-eval td { border:1px solid rgba(255,255,255,0.05); padding:8px; text-align:left; }
+.table-eval th { background: rgba(255,255,255,0.02); }
+.level-badge { display:inline-block; padding:6px 10px; border-radius:20px; border:2px solid var(--accent-color); color:var(--accent-color); font-weight:700; }
+.small-note { color: color-mix(in srgb, var(--default-color), transparent 50%); font-size:13px; margin-top:8px; }
+@media (max-width:768px){ .comp-card{ padding:20px; margin:20px; } .comp-card h1{ font-size:22px; } }
