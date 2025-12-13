@@ -90,7 +90,10 @@
                 <div class="buttons-container mb-3">
                   <a href="../../../../fr/competence.html" class="btn btn-outline-success"><i class="bi bi-arrow-left"></i> Retour aux compétences</a>
                   <div class="comp-level-buttons">
-                    <a href="./niveau1.html" class=" btn btn-outline-success">Niveau 1</a> <a href="./niveau2.html" class="active btn btn-outline-success">Niveau 2</a> <a href="./niveau3.html" class=" btn btn-outline-success">Niveau 3</a>
+                    <a href="./realiser.html">Réaliser</a>
+                    <a href="./niveau1.html" class=" btn btn-outline-success">Niveau 1</a>
+                    <a href="#" class="active btn btn-outline-success">Niveau 2</a>
+                    <a href="./niveau3.html" class=" btn btn-outline-success">Niveau 3</a>
                   </div>
                 </div>
       
@@ -104,26 +107,130 @@
                 </ul>
       
                 <h3 class="comp-section-title">Ressources / Savoirs de référence</h3>
-                <p class="comp-subtext">Consulter le Programme National (PN-BUT-INFO-2022) pour les références complètes.</p>
-      
-                <h3 class="comp-section-title">Exemples de preuves</h3>
-                <div class="proof-card">
-                  <h4>Preuve - Projet académique</h4>
-                  <p>Décrivez le projet, ajoutez le lien GitHub, captures d'écran et justifiez quels AC sont mobilisés.</p>
+                <div class="project-details__desc">
+                    <div class="resource-cards-container">
+                        <div class="resource-card">
+                            <div class="resource-card__header">
+                                <div>
+                                    <div class="resource-card__title">R3.01 : Développement web</div>
+                                </div>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Technologies :</strong>
+                                <span>Javascript</span>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Contenu :</strong>
+                                <span>Développement d'applications web complètes, architectures MVC, API REST,
+                                    frameworks modernes, séparation des responsabilités.</span>
+                            </div>
+                        </div>
+                        <div class="resource-card">
+                            <div class="resource-card__header">
+                                <div>
+                                    <div class="resource-card__title">R3.04 : Qualité de développement</div>
+                                </div>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Technologies :</strong>
+                                <span>PHP POO</span>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Contenu :</strong>
+                                <span>Approfondissement de la qualité : tests d'intégration, couverture de code,
+                                    revue de code, assurance qualité, validation et vérification.</span>
+                            </div>
+                        </div>
+                        <div class="resource-card">
+                            <div class="resource-card__header">
+                                <div>
+                                    <div class="resource-card__title">R4.01 : Architecture logicielle</div>
+                                </div>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Technologies :</strong>
+                                <span>WinUI, .NET Core</span>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Contenu :</strong>
+                                <span>Architectures logicielles avancées, patterns de conception, séparation des
+                                    responsabilités, scalabilité.</span>
+                            </div>
+                        </div>
+                        <div class="resource-card">
+                            <div class="resource-card__header">
+                                <div>
+                                    <div class="resource-card__title">R4.02 : Qualité de Développement</div>
+                                </div>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Technologies :</strong>
+                                <span>NET Core, WinUi (Test Unitaires, Mock...)</span>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Contenu :</strong>
+                                <span>Tests unitaires avancés, mocks, qualité du code, maintenabilité, bonnes
+                                    pratiques de développement.</span>
+                            </div>
+                        </div>
+                        <div class="resource-card">
+                            <div class="resource-card__header">
+                                <div>
+                                    <div class="resource-card__title">R4.11 : Développement pour applications mobile
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Technologies :</strong>
+                                <span>Flutter</span>
+                            </div>
+                            <div class="resource-card__field">
+                                <strong>Contenu :</strong>
+                                <span>Développement d'applications mobiles, interfaces utilisateur adaptatives,
+                                    gestion d'état, développement cross-platform.</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
       
+      
                 <table class="table-eval">
-                  <thead><tr><th>Critère</th><th>Niveau observé</th><th>Commentaire</th></tr></thead>
-                  <tbody>
-                    <tr><td>Conception</td><td>-</td><td>-</td></tr>
-                    <tr><td>Implémentation</td><td>-</td><td>-</td></tr>
-                    <tr><td>Tests</td><td>-</td><td>-</td></tr>
-                  </tbody>
-                </table>
+                    <thead>
+                      <tr>
+                        <th>Éléments observés</th>
+                        <th>Analyse</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Difficultés rencontrées</td>
+                        <td>
+                          Adaptation à des architectures plus complexes, gestion de la maintenabilité
+                          et prise en compte de plusieurs environnements d’exécution.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Points de facilité</td>
+                        <td>
+                          Bonne maîtrise des bases du développement applicatif, compréhension rapide
+                          des frameworks et capacité à structurer un projet de manière cohérente.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Axes d’amélioration</td>
+                        <td>
+                          Approfondir les pratiques de tests automatisés, renforcer la documentation
+                          technique et optimiser les performances applicatives.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
       
                 <div class="navigation-bottom">
-                  <a href="../../../../fr/competence.html" class="btn btn-outline-success"><i class="bi bi-arrow-left"></i> Retour</a>
-                  <a href="./niveau3.html" class="btn btn-outline-success">Niveau 3 →</a>
+                  <a href="./niveau1.html" class="btn btn-outline-success"><i class="bi bi-arrow-left"></i> Niveau 1</a>
+                  <a href="./niveau3.html" class="btn btn-outline-success">Retour</a>
+                  <a href="./niveau3.html" class="btn btn-outline-success">Niveau 3 <i class="bi bi-arrow-right"></i></a>
                 </div>
               </div>
             </div>
