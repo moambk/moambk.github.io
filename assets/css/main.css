@@ -1759,6 +1759,38 @@ section,
 @media (max-width:768px){ .comp-card{ padding:20px; margin:20px; } .comp-card h1{ font-size:22px; } }
 
 
+.interest-card {
+  background: var(--surface-color);
+  border-radius: 14px;
+  padding: 24px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.interest-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.interest-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.interest-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.interest-card p {
+  font-size: 14px;
+  color: var(--default-color);
+  opacity: 0.85;
+}
+
+
+
 
 /* Resource Cards Container */
 
